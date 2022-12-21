@@ -241,7 +241,7 @@ h6 {
 }
 
 #hero .hero-container {
-  position: fixed;
+  position: absolute;
   margin:auto;
   text-align:left;
   left: 317px;
@@ -253,7 +253,6 @@ h6 {
   position: fixed;
   margin:auto;
   text-align:left;
-  vertical-align:auto;
   left: 317px;
   z-index: 2;
   min-width: 300px;
