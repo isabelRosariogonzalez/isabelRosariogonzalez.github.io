@@ -6,6 +6,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background: #e9eae4;
 }
 
 a {
@@ -61,7 +62,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header (parte negra derecha)
+# Header (parte negra izq)
 --------------------------------------------------------------*/
 #header {
   position: fixed;
@@ -73,7 +74,8 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 26px;
-  background: #040b14;
+  /* background: #333138; */
+  background: #212529;
   overflow-y: auto;
 }
 
@@ -278,12 +280,14 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    position: fixed;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    position: fixed;
   }
 }
 
@@ -296,7 +300,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: 027BCE;
 }
 
 .section-title {
