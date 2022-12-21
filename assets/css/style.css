@@ -242,8 +242,19 @@ h6 {
 
 #hero .hero-container {
   position: fixed;
-  left: 310px;
+  margin:auto;
+  text-align:left;
+  left: 317px;
   top: 150px;
+  z-index: 2;
+  min-width: 300px;
+}
+#hero .hero-container2 {
+  position: fixed;
+  margin:auto;
+  text-align:left;
+  vertical-align:auto;
+  left: 317px;
   z-index: 2;
   min-width: 300px;
 }
